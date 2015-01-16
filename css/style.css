@@ -657,6 +657,11 @@ footer p {
     color: #f8f8f8;
 }
 
+footer a {
+    color: orange;
+    font-weight: bold;
+}
+
 /* ==========================
 Parallax
 ============================= */
