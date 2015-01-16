@@ -369,6 +369,11 @@ section.bigfat {
     text-shadow: -1px 1px 3px #000;
 }
 
+.bigfat .slogan h5 {
+    color: #fff;
+    text-shadow: -1px 1px 3px #000;
+}
+
 
 
 /* ===========================
@@ -409,6 +414,16 @@ section.bigfat {
     padding:15% 0 0 0;
 }
 
+.fritedombox-friends h5 {
+    margin-top: 140px;
+    margin-bottom: 10px;
+}
+
+.fritedombox-friends h6 {
+    color: #fff;
+    text-shadow: -1px 1px 3px #000;
+    margin-top: 10px;
+}
 
 /* ===========================
 --- VPN
