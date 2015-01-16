@@ -359,6 +359,11 @@ section.bigfat {
     text-shadow: -1px 0 3px #000;
 }
 
+.bigfat .slogan h3 {
+    color: #fff;
+    text-shadow: -1px 1px 3px #000;
+}
+
 .bigfat .slogan h4 {
     color: #fff;
     text-shadow: -1px 1px 3px #000;
@@ -390,6 +395,35 @@ section.bigfat {
     color: #fff;
     text-shadow: -1px 1px 3px #000;
     font-size: 38px;
+}
+
+/* ===========================
+--- VPN
+============================ */
+
+.vpn {
+    background: url(../img/clean.jpg) no-repeat top center;
+}
+
+#vpn.vpn {
+    padding:15% 0 0 0;
+}
+
+.vpn .solution {
+    padding-top: 70px;
+    color: #729FCF;
+}
+
+.vpn-promotion {
+    padding-top: 40px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.slogan .vpn-promotion h3 {
+    color: #666;
+    border: solid #bbb 3px;
+    text-shadow: 0px 0px 0px;
 }
 
 
