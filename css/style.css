@@ -351,6 +351,62 @@ hr {
 }
 
 
+
+/* ===========================
+--- ffdn
+============================ */
+
+.ffdn {
+    width:100%;
+    position:relative;
+
+    background: url(../img/ffdn.png) no-repeat top center;
+}
+
+#ffdn.ffdn {
+    padding:03% 0 0 0;
+}
+
+.ffdn .slogan {
+    text-align: center;
+
+}
+
+.ffdn .page-scroll {
+    text-align: center;
+}
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.ffdn-text {
+    font-size: 18px;
+}
+
+.ffdn .slogan h2 {
+    color: #FFF;
+    text-shadow: none;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+    text-shadow: -1px 0 3px #000;
+}
+
+.ffdn .slogan h3 {
+    color: #fff;
+    text-shadow: -1px 1px 3px #000;
+    font-size: 38px;
+}
+
+
 /* ===========================
 --- About
 ============================ */
@@ -738,6 +794,11 @@ Parallax
 
     .intro {
         height: 100%;
+        padding: 0;
+    }
+
+    .ffdn {
+        height: 73%;
         padding: 0;
     }
 
