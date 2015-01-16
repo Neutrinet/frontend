@@ -316,38 +316,34 @@ hr {
 
 
 /* ===========================
---- Intro
+--- Big fat
 ============================ */
 
-.intro {
+.bigfat {
     width:100%;
     position:relative;
 
     background: url(../img/cat.jpg) no-repeat top center;
 }
 
-#intro.intro {
+section.bigfat {
     padding:20% 0 0 0;
 }
 
-.intro .slogan {
+.bigfat .slogan {
     text-align: center;
 
 }
 
-.intro .page-scroll {
+.bigfat .page-scroll {
     text-align: center;
 }
 
-.brand-heading {
-    font-size: 40px;
-}
-
-.intro-text {
+.bigfat-text {
     font-size: 18px;
 }
 
-.intro .slogan h2 {
+.bigfat .slogan h2 {
     color: #FFF;
     text-shadow: none;
     font-size: 60px;
@@ -363,7 +359,7 @@ hr {
     text-shadow: -1px 0 3px #000;
 }
 
-.intro .slogan h4 {
+.bigfat .slogan h4 {
     color: #fff;
     text-shadow: -1px 1px 3px #000;
 }
@@ -371,51 +367,23 @@ hr {
 
 
 /* ===========================
+--- Intro
+============================ */
+
+.intro {
+    background: url(../img/cat.jpg) no-repeat top center;
+}
+
+/* ===========================
 --- ffdn
 ============================ */
 
 .ffdn {
-    width:100%;
-    position:relative;
-
     background: url(../img/ffdn.png) no-repeat top center;
 }
 
 #ffdn.ffdn {
     padding:03% 0 0 0;
-}
-
-.ffdn .slogan {
-    text-align: center;
-
-}
-
-.ffdn .page-scroll {
-    text-align: center;
-}
-
-.brand-heading {
-    font-size: 40px;
-}
-
-.ffdn-text {
-    font-size: 18px;
-}
-
-.ffdn .slogan h2 {
-    color: #FFF;
-    text-shadow: none;
-    font-size: 60px;
-    line-height: 60px;
-    font-weight: 700;
-    font-family: Montserrat, sans-serif;
-    background-color: rgba(0, 0, 0, 0);
-    text-decoration: none;
-    text-transform: uppercase;
-    border-width: 0px;
-    border-color: #000;
-    border-style: none;
-    text-shadow: -1px 0 3px #000;
 }
 
 .ffdn .slogan h3 {
@@ -430,47 +398,11 @@ hr {
 ============================ */
 
 .diyisp {
-    width:100%;
-    position:relative;
-
     background: url(../img/diyisp.png) no-repeat top center;
 }
 
 #diyisp.diyisp {
     padding:48% 0 0 0;
-}
-
-.diyisp .slogan {
-    text-align: center;
-
-}
-
-.diyisp .page-scroll {
-    text-align: center;
-}
-
-.brand-heading {
-    font-size: 40px;
-}
-
-.diyisp-text {
-    font-size: 18px;
-}
-
-.diyisp .slogan h2 {
-    color: #FFF;
-    text-shadow: none;
-    font-size: 60px;
-    line-height: 60px;
-    font-weight: 700;
-    font-family: Montserrat, sans-serif;
-    background-color: rgba(0, 0, 0, 0);
-    text-decoration: none;
-    text-transform: uppercase;
-    border-width: 0px;
-    border-color: #000;
-    border-style: none;
-    text-shadow: -1px 0 3px #000;
 }
 
 .diyisp .slogan h3 {
