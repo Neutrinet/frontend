@@ -398,6 +398,19 @@ section.bigfat {
 }
 
 /* ===========================
+--- FriteDomBox
+============================ */
+
+.fritedombox {
+    background: url(../img/the-internet.jpg) no-repeat top center;
+}
+
+#fritedombox.fritedombox {
+    padding:15% 0 0 0;
+}
+
+
+/* ===========================
 --- VPN
 ============================ */
 
