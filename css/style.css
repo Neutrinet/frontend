@@ -880,6 +880,11 @@ Parallax
         padding: 0;
     }
 
+    .fritedombox {
+        height: 130%;
+        padding: 0;
+    }
+
     .brand-heading {
         font-size: 100px;
     }
