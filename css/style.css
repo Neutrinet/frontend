@@ -324,6 +324,7 @@ hr {
     position:relative;
 
     background: url(../img/cat.jpg) no-repeat top center;
+    background-size: cover;
 }
 
 section.bigfat {
@@ -389,7 +390,8 @@ section.bigfat {
 ============================ */
 
 .ffdn {
-    background: url(../img/ffdn.png) no-repeat top center;
+    background: url(../img/ffdn.png) no-repeat center center;
+    background-size: contain;
 }
 
 #ffdn.ffdn {
@@ -408,6 +410,7 @@ section.bigfat {
 
 .fritedombox {
     background: url(../img/the-internet.jpg) no-repeat top center;
+    background-size: cover;
 }
 
 #fritedombox.fritedombox {
@@ -431,6 +434,7 @@ section.bigfat {
 
 .vpn {
     background: url(../img/clean.jpg) no-repeat top center;
+    background-size: cover;
 }
 
 #vpn.vpn {
@@ -461,6 +465,7 @@ section.bigfat {
 
 .diyisp {
     background: url(../img/diyisp.png) no-repeat top center;
+    background-size: cover;
 }
 
 #diyisp.diyisp {
