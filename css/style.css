@@ -324,7 +324,6 @@ hr {
     position:relative;
 
     background: url(../img/cat.jpg) no-repeat top center;
-    background-size: cover;
 }
 
 section.bigfat {
@@ -383,6 +382,7 @@ section.bigfat {
 
 .intro {
     background: url(../img/cat.jpg) no-repeat top center;
+    background-size: cover;
 }
 
 /* ===========================
