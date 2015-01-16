@@ -295,6 +295,24 @@ hr {
     color: #fff;
 }
 
+.citation {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.citation blockquote {
+    font-size: 22px;
+    text-align: left;
+    text-indent: 15px;
+    font-style: italic;
+    font-family: "Helvetica Neue",Helvetica,Arialself,sans-serif;
+    color: #9A9A9A;
+}
+
+.under-citation {
+    text-align: right;
+    padding-right: 12%;
+}
 
 
 /* ===========================
