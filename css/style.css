@@ -508,6 +508,34 @@ section.bigfat {
 
 
 /* ===========================
+--- Get involved
+============================ */
+
+.getinvolved h2 {
+    text-transform: none;
+}
+
+.getinvolved h3 {
+    text-transform: none;
+}
+
+.getinvolved h4 {
+    text-transform: none;
+}
+
+.getinvolved h5 {
+    text-transform: none;
+}
+
+.getinvolved-links a {
+    background-color: #729FCF;
+}
+
+.service-icon {
+    font-size: 42px;
+}
+
+/* ===========================
 --- About
 ============================ */
 
