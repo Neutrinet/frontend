@@ -417,8 +417,20 @@ section.bigfat {
     padding:15% 0 0 0;
 }
 
+.fritedombox-friends {
+    padding: 0 0 0 0;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
 .fritedombox-friends h5 {
-    margin-top: 140px;
+    color: #fff;
+    text-shadow: -1px 1px 3px #000;
     margin-bottom: 10px;
 }
 
