@@ -472,6 +472,39 @@ section.bigfat {
 
 
 /* ===========================
+--- meetings
+============================ */
+
+.meetings {
+    background: url(../img/balloon.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+#meetings.meetings {
+    padding-top: 80px;
+}
+
+.meetings {
+    color: #fff;
+    text-shadow: -1px 1px 3px #000;
+    margin-top: 10px;
+}
+
+.meetings h3 {
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 30px;
+}
+
+.meeting {
+    background-color: #F9F9F9;
+    color: #666;
+    border: solid #bbb 3px;
+    text-shadow: 0px 0px 0px;
+    font-weight: 400;
+}
+
+/* ===========================
 --- diyisp
 ============================ */
 
@@ -932,6 +965,11 @@ Parallax
 
     .ffdn {
         height: 73%;
+        padding: 0;
+    }
+
+    .meetings {
+        height: 60%;
         padding: 0;
     }
 
