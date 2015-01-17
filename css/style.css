@@ -469,7 +469,17 @@ section.bigfat {
 }
 
 #diyisp.diyisp {
-    padding:48% 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.diyisp .slogan {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .diyisp .slogan h3 {
