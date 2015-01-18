@@ -468,6 +468,7 @@ section.bigfat {
     color: #666;
     border: solid #bbb 3px;
     text-shadow: 0px 0px 0px;
+    text-transform: none;
 }
 
 
