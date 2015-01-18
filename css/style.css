@@ -385,6 +385,10 @@ section.bigfat {
     background-size: cover;
 }
 
+#intro {
+    min-height: 250px;
+}
+
 /* ===========================
 --- ffdn
 ============================ */
