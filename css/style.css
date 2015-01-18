@@ -810,7 +810,8 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 footer {
     text-align: center;
-    padding: 50px 0 ;
+    padding-top: 20px;
+    padding-bottom: 0px;
 
 }
 
