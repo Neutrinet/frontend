@@ -31,7 +31,7 @@ h6 {
 
 p {
     margin: 0 0 20px;
-    font-size: 16px;
+    font-size: 1.128em;
     line-height: 1.6em;
 }
 
@@ -68,13 +68,13 @@ a:focus {
 .navbar-brand {
   height: 40px;
   padding: 5px 15px;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 1em;
 }
 
 .navbar-brand h1{
     color: #fff;
-  font-size: 20px;
+  font-size: 1.28em;
   line-height: 40px;
 }
 
@@ -92,7 +92,7 @@ a:focus {
 
 
 .navbar-custom ul.nav li a {
-    font-size: 12px;
+    font-size: 0.86em;
     letter-spacing: 1px;
     color: #444;
     text-transform: uppercase;
@@ -152,7 +152,7 @@ a:focus {
 
 .navbar-toggle {
     padding: 4px 6px;
-    font-size: 14px;
+    font-size: 0.8750em;
     color: #fff;
 }
 
@@ -267,7 +267,7 @@ hr {
 
 
 .section-heading h2 {
-    font-size: 40px;
+    font-size: 2.85em;
 }
 .section-heading i {
     margin-bottom: 20px;
@@ -301,7 +301,7 @@ hr {
 }
 
 .citation blockquote {
-    font-size: 22px;
+    font-size: 1.575em;
     text-align: left;
     text-indent: 15px;
     font-style: italic;
@@ -340,13 +340,13 @@ section.bigfat {
 }
 
 .bigfat-text {
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .bigfat .slogan h2 {
     color: #FFF;
     text-shadow: none;
-    font-size: 60px;
+    font-size: 4.25em;
     line-height: 60px;
     font-weight: 700;
     font-family: Montserrat, sans-serif;
@@ -405,7 +405,7 @@ section.bigfat {
 .ffdn .slogan h3 {
     color: #fff;
     text-shadow: -1px 1px 3px #000;
-    font-size: 38px;
+    font-size: 2.71em;
     text-transform: none;
 }
 
@@ -499,7 +499,7 @@ section.bigfat {
 .meetings h3 {
     text-transform: none;
     letter-spacing: 0px;
-    font-size: 30px;
+    font-size: 2.15em;
 }
 
 .meeting {
@@ -530,12 +530,12 @@ section.bigfat {
 
 .howtobecomeamember .details {
     font-weight: 400;
-    font-size: 16px;
     text-indent: 15px;
 }
 
 .howtobecomeamember .details li {
     text-indent: 0px;
+    font-size: 1.128em;
 }
 
 .bank h4 {
@@ -572,7 +572,7 @@ section.bigfat {
 .diyisp .slogan h3 {
     color: #fff;
     text-shadow: -1px 1px 3px #000;
-    font-size: 38px;
+    font-size: 2.7125em;
 }
 
 
@@ -608,7 +608,7 @@ section.bigfat {
 .panda .slogan h3 {
     color: #fff;
     text-shadow: -1px 1px 3px #000;
-    font-size: 38px;
+    font-size: 2.375em;
 }
 
 
@@ -643,7 +643,7 @@ section.bigfat {
 }
 
 .service-icon {
-    font-size: 42px;
+    font-size: 3em;
 }
 
 /* ===========================
@@ -735,7 +735,7 @@ form#contact-form .form-group label {
     display: block;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 0.750em;
 }
 form#contact-form input,form#contact-form select,form#contact-form textarea {
     border-radius: 0;
@@ -890,7 +890,7 @@ Parallax
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 2.5em;
     color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
@@ -1006,7 +1006,7 @@ Parallax
 
 .btn-huge {
     padding: 25px;
-    font-size: 26px;
+    font-size: 1.625em;
 }
 
 .banner-social-buttons {
@@ -1058,12 +1058,12 @@ Parallax
     }
 
     .brand-heading {
-        font-size: 100px;
+        font-size: 6.250em;
     }
 
 
     .intro-text {
-        font-size: 25px;
+        font-size: 1.563em;
     }
 
 }
@@ -1101,7 +1101,7 @@ Parallax
         padding: 7px 0;
         border: 2px solid #fff;
         border-radius: 50%;
-        font-size: 20px;
+        font-size: 1.250em;
     }
 
 }
