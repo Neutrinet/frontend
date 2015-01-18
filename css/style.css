@@ -541,6 +541,42 @@ section.bigfat {
 
 
 /* ===========================
+--- panda
+============================ */
+
+.panda {
+    background: url(../img/panda.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+#panda.panda {
+    padding: 0 0 0 0;
+}
+
+.panda .slogan {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.panda .slogan h3 {
+    color: #fff;
+    text-shadow: -1px 1px 3px #000;
+    font-size: 38px;
+}
+
+
+.panda .slogan h4 {
+    color: #fff;
+    text-shadow: -1px 1px 3px #000;
+}
+
+
+/* ===========================
 --- Get involved
 ============================ */
 
