@@ -506,6 +506,42 @@ section.bigfat {
 }
 
 /* ===========================
+--- become a member
+============================ */
+
+.howtobecomeamember .blabla {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.bank {
+    padding: 8px;
+    background-color: #F3F3F3;
+    color: #666;
+    border: solid #bbb 7px;
+    text-shadow: 0px 0px 0px;
+    font-weight: 400;
+}
+
+.howtobecomeamember .details {
+    font-weight: 400;
+    font-size: 16px;
+    text-indent: 15px;
+}
+
+.howtobecomeamember .details li {
+    text-indent: 0px;
+}
+
+.bank h4 {
+    margin-bottom: 15px;
+}
+
+.bank p {
+    margin-bottom: 0px;
+}
+
+/* ===========================
 --- diyisp
 ============================ */
 
