@@ -596,6 +596,10 @@ section.bigfat {
     padding: 0 0 0 0;
 }
 
+#diyisp {
+    min-height: 250px;
+}
+
 .diyisp .slogan {
     position: absolute;
     bottom: 20px;
