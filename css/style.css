@@ -475,13 +475,20 @@ section.bigfat {
 --- VPN
 ============================ */
 
+.vpn .slogan h3 {
+    color: #fff;
+    text-shadow: -1px 1px 3px #000;
+    text-align: center;
+}
+
 .vpn {
     background: url(../img/clean.jpg) no-repeat top center;
     background-size: cover;
 }
 
 #vpn.vpn {
-    padding:15% 0 0 0;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .vpn .solution {
