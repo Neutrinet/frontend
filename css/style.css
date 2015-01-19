@@ -26,7 +26,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,sans-serif;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0.1px;
 }
 
 p {
@@ -83,7 +83,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.0);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -94,13 +94,13 @@ a:focus {
 .navbar-custom ul.nav li a {
     font-size: 0.86em;
     letter-spacing: 1px;
-    color: #444;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
-        -webkit-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     color: #fff;
@@ -381,7 +381,7 @@ section.bigfat {
 ============================ */
 
 .intro {
-    background: url(../img/cat.jpg) no-repeat top center;
+    background: url(../img/cats.jpg) no-repeat top center;
     background-size: cover;
 }
 
@@ -438,6 +438,11 @@ section.bigfat {
     padding-top: 5%;
 }
 
+.black-title {
+    padding: 20px 0;
+    background: rgba(0,0,0,0.7);
+}
+
 .fritedombox .slogan h2 {
     color: #FFF;
     text-shadow: none;
@@ -483,13 +488,36 @@ section.bigfat {
 }
 
 .vpn {
-    background: url(../img/clean.jpg) no-repeat top center;
+    background: url(../img/trapped.jpg) no-repeat top center;
     background-size: cover;
+    padding-top: 260px;
+    padding-bottom: 5%;
 }
 
-#vpn.vpn {
-    padding-top: 10%;
-    padding-bottom: 5%;
+.vpn .vpn-title {
+    margin-top: -157px;
+    color: rgba(0,0,0,0.7);
+    text-align: center;
+    font-size: 150px;
+    letter-spacing: -10px;
+}
+
+.vpn .vpn-line1 {
+    color: #eee;
+    padding: 120px 0 0;
+    text-align: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+.vpn .vpn-line2 {
+    color: #eee;
+    padding: 60px 0 0;
+    text-align: right;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
 }
 
 .vpn .solution {
@@ -503,11 +531,17 @@ section.bigfat {
     padding-right: 25%;
 }
 
-.slogan .vpn-promotion h3 {
-    color: #666;
-    border: solid #bbb 3px;
+.slogan .vpn-promotion .boxed-grey {
+    color: #333;
+    background: rgba(255,255,255,0.8);
     text-shadow: 0px 0px 0px;
     text-transform: none;
+    letter-spacing: -0.1px;
+}
+
+.slogan .vpn-promotion .boxed-grey small {
+    color: #777;
+    text-shadow: none;
 }
 
 
@@ -516,7 +550,7 @@ section.bigfat {
 ============================ */
 
 .meetings {
-    background: url(../img/balloon.jpg) no-repeat top center;
+    background: url(../img/pinguines.jpg) no-repeat top center;
     background-size: cover;
 }
 
@@ -860,20 +894,23 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 --- Footer
 ============================ */
 
-footer {
+section.footer {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding: 20px 0;
+    background: #729FCF;
 
 }
 
-footer small {
+section.footer small {
     color: #f8f8f8;
 }
 
-footer a {
-    color: orange;
+section.footer a {
+    color: white;
     font-weight: bold;
+}
+section.footer a:hover {
+    color: orange;
 }
 
 /* ==========================
@@ -1070,6 +1107,7 @@ Parallax
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
+        color: #eee;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
