@@ -403,7 +403,7 @@ section.bigfat {
 }
 
 #ffdn {
-    min-height: 8em;
+    min-height: 16em;
 }
 
 .ffdn-text .slogan h3 {
@@ -415,6 +415,7 @@ section.bigfat {
 .ffdn-text .slogan h4 {
     text-transform: none;
     text-align: center;
+    margin-bottom: 0;
 }
 
 /* ===========================
@@ -1088,7 +1089,6 @@ Parallax
     }
 
     .ffdn {
-        height: 73%;
         padding: 0;
     }
 
