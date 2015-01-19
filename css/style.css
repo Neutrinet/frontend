@@ -636,6 +636,10 @@ section.bigfat {
     padding: 0 0 0 0;
 }
 
+#panda {
+    min-height: 250px;
+}
+
 .panda .slogan {
     position: absolute;
     bottom: 20px;
