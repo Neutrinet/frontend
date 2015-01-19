@@ -424,21 +424,38 @@ section.bigfat {
 .fritedombox {
     background: url(../img/the-internet.jpg) no-repeat top center;
     background-size: cover;
+    text-align: center;
+    padding: 0;
 }
 
 #fritedombox.fritedombox {
-    padding:15% 0 0 0;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .fritedombox-friends {
-    padding: 0 0 0 0;
-    position: absolute;
-    bottom: 0px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+    padding-top: 5%;
+}
+
+.fritedombox .slogan h2 {
+    color: #FFF;
+    text-shadow: none;
+    font-size: 4.25em;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+    text-shadow: -1px 0 3px #000;
+}
+
+.fritedombox .slogan h3 {
+    color: #fff;
+    text-shadow: -1px 1px 3px #000;
 }
 
 .fritedombox-friends h5 {
@@ -451,6 +468,7 @@ section.bigfat {
     color: #fff;
     text-shadow: -1px 1px 3px #000;
     margin-top: 10px;
+    margin-bottom: 0;
 }
 
 /* ===========================
@@ -1061,7 +1079,6 @@ Parallax
     }
 
     .fritedombox {
-        height: 130%;
         padding: 0;
     }
 
