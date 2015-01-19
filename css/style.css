@@ -519,6 +519,10 @@ section.bigfat {
     background-size: cover;
 }
 
+#meetings {
+    margin: 0;
+}
+
 #meetings.meetings {
     padding-top: 80px;
 }
@@ -1081,7 +1085,6 @@ Parallax
     }
 
     .meetings {
-        height: 60%;
         padding: 0;
     }
 
