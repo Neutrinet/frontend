@@ -43,7 +43,8 @@
                 }
             }
         }).error(function(data) {
-            console.log("Can't get " + kind + " meetings: " + data);
+            console.log("Can't get " + kind + " meetings: ");
+            console.log(data);
         })
     }
 
