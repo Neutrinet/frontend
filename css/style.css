@@ -58,7 +58,7 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(33,33,33,.3);
 
 }
 
@@ -103,7 +103,7 @@ a:focus {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    color: #fff;
+    color: #333;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
@@ -897,7 +897,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 section.footer {
     text-align: center;
     padding: 20px 0;
-    background: #729FCF;
+    background: #666;
 
 }
 
@@ -1119,7 +1119,7 @@ Parallax
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 1px solid rgba(33,33,33,.3);
     }
 
     .bigfat {
