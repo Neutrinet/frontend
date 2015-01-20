@@ -39,7 +39,7 @@
                         var month = "0" + month;
                     }
                     var date = date.getDate() + "/" + month + "/" + date.getUTCFullYear();
-                    element.append('<p class="meeting">' + date + ' - <a href="' + window.location.protocol + url + '"><b>' + i + '</b></a> ' + location + '</p>')
+                    element.append('<p class="meeting">' + date + ' - <a href="' + window.location.protocol + url + '"><b>' + i.slice(6, i.length) + '</b></a> ' + location + '</p>')
                 }
             }
         }).error(function(data) {
