@@ -58,28 +58,23 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(33,33,33,.3);
 
 }
 
 .navbar-brand {
-    font-weight: 700;
-}
-.navbar-brand {
-  height: 40px;
-  padding: 5px 15px;
-  font-size: 1.125em;
-  line-height: 1em;
-}
-
-.navbar-brand h1{
-    color: #fff;
-  font-size: 1.28em;
-  line-height: 40px;
+	height: 40px;
+	padding: 10px 15px;
+	line-height: 1em;
 }
 
 .navbar-brand:focus {
     outline: 0;
+}
+
+#neutrinet-logo {
+	height: 30px;
+	max-width: 150px;
 }
 
 .nav.navbar-nav {
@@ -90,6 +85,10 @@ a:focus {
     background-color: rgba(0,0,0,0);
 }
 
+/* Dynamic SVG CSS styling is so hot */
+.navbar-custom.top-nav-collapse #Layer_1 {
+	fill: #333;
+}
 
 .navbar-custom ul.nav li a {
     font-size: 0.86em;
@@ -103,7 +102,7 @@ a:focus {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    color: #fff;
+    color: #333;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
@@ -141,13 +140,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
-}
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(200,200,200,.2);
 }
 
 .navbar-toggle {
@@ -443,6 +436,10 @@ section.bigfat {
     background: rgba(0,0,0,0.7);
 }
 
+div.black-title a {
+	text-decoration: underline;
+}
+
 .fritedombox .slogan h2 {
     color: #FFF;
     text-shadow: none;
@@ -544,6 +541,15 @@ section.bigfat {
     text-shadow: none;
 }
 
+.boxed-grey span.invert,
+.black-title span.invert {
+    border-bottom: dashed 2px #555;
+}
+
+.boxed-grey {
+    line-height: 1.5;
+}
+
 
 /* ===========================
 --- meetings
@@ -564,7 +570,6 @@ section.bigfat {
 
 .meetings {
     color: #fff;
-    text-shadow: -1px 1px 3px #000;
     margin-top: 10px;
 }
 
@@ -576,9 +581,8 @@ section.bigfat {
 
 .meeting {
     background-color: #F9F9F9;
-    color: #666;
-    border: solid #bbb 3px;
-    text-shadow: 0px 0px 0px;
+	color: #666;
+    border: solid #666 1px;
     font-weight: 400;
 }
 
@@ -595,8 +599,7 @@ section.bigfat {
     padding: 8px;
     background-color: #F3F3F3;
     color: #666;
-    border: solid #bbb 7px;
-    text-shadow: 0px 0px 0px;
+    border: solid #999 1px;
     font-weight: 400;
 }
 
@@ -720,7 +723,14 @@ section.bigfat {
 }
 
 .getinvolved-links a {
-    background-color: #729FCF;
+	color: #333;
+	background-color: #EEE;
+	border-color: #333;
+}
+
+.getinvolved-links a:hover {
+    color: #FEFEFE;
+    background-color: #777;
 }
 
 .service-icon {
@@ -897,7 +907,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 section.footer {
     text-align: center;
     padding: 20px 0;
-    background: #729FCF;
+    background: #666;
 
 }
 
@@ -1119,7 +1129,7 @@ Parallax
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 1px solid rgba(33,33,33,.3);
     }
 
     .bigfat {
