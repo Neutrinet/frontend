@@ -21,7 +21,7 @@
     });
 
     function addMeetings(url, kind) {
-        element = $("#" + kind + "-meetings");
+        var element = $("#" + kind + "-meetings");
         $.getJSON(url).success(function(data){
             if ($.isEmptyObject(data.results)) {
                 // will only happen for next meeting *normally* (haha.)
