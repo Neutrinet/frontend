@@ -3,7 +3,8 @@ a,.tp-caption a.btn:hover {
     color: #729FCF;
 }
 .top-nav-collapse {
-    background: #729FCF;
+	background: rgba(250, 250, 250, 0.95);
+	box-shadow: inset 0px 0px 5px #FEFEFE;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
