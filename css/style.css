@@ -63,23 +63,18 @@ a:focus {
 }
 
 .navbar-brand {
-    font-weight: 700;
-}
-.navbar-brand {
-  height: 40px;
-  padding: 5px 15px;
-  font-size: 1.125em;
-  line-height: 1em;
-}
-
-.navbar-brand h1{
-    color: #fff;
-  font-size: 1.28em;
-  line-height: 40px;
+	height: 40px;
+	padding: 10px 15px;
+	line-height: 1em;
 }
 
 .navbar-brand:focus {
     outline: 0;
+}
+
+#neutrinet-logo {
+	height: 30px;
+	max-width: 150px;
 }
 
 .nav.navbar-nav {
@@ -90,6 +85,10 @@ a:focus {
     background-color: rgba(0,0,0,0);
 }
 
+/* Dynamic SVG CSS styling is so hot */
+.navbar-custom.top-nav-collapse #Layer_1 {
+	fill: #333;
+}
 
 .navbar-custom ul.nav li a {
     font-size: 0.86em;
