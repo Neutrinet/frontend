@@ -724,7 +724,14 @@ div.black-title a {
 }
 
 .getinvolved-links a {
-    background-color: #729FCF;
+	color: #333;
+	background-color: #EEE;
+	border-color: #333;
+}
+
+.getinvolved-links a:hover {
+    color: #FEFEFE;
+    background-color: #777;
 }
 
 .service-icon {
