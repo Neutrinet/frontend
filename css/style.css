@@ -542,6 +542,15 @@ div.black-title a {
     text-shadow: none;
 }
 
+.boxed-grey span.invert,
+.black-title span.invert {
+    border-bottom: dashed 2px #555;
+}
+
+.boxed-grey {
+    line-height: 1.5;
+}
+
 
 /* ===========================
 --- meetings
