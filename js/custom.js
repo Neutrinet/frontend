@@ -21,8 +21,8 @@
     });
 
     function addMeetings(url, kind) {
+        element = $("#" + kind + "-meetings");
         $.getJSON(url).success(function(data){
-            element = $("#" + kind + "-meetings");
             if ($.isEmptyObject(data.results)) {
                 // will only happen for next meeting *normally* (haha.)
                 element.html('<p class="meeting"><i>There is no next meeting planned yet</i></p>')
@@ -45,6 +45,7 @@
         }).error(function(data) {
             console.log("Can't get " + kind + " meetings: ");
             console.log(data);
+            element.html('<p class="meeting"><i>There is no next meeting planned yet</i></p>')
         })
     }
 
