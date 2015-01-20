@@ -564,7 +564,6 @@ section.bigfat {
 
 .meetings {
     color: #fff;
-    text-shadow: -1px 1px 3px #000;
     margin-top: 10px;
 }
 
@@ -577,8 +576,7 @@ section.bigfat {
 .meeting {
     background-color: #F9F9F9;
     color: #666;
-    border: solid #bbb 3px;
-    text-shadow: 0px 0px 0px;
+    border: solid #666 1px;
     font-weight: 400;
 }
 
@@ -595,8 +593,7 @@ section.bigfat {
     padding: 8px;
     background-color: #F3F3F3;
     color: #666;
-    border: solid #bbb 7px;
-    text-shadow: 0px 0px 0px;
+    border: solid #999 1px;
     font-weight: 400;
 }
 
