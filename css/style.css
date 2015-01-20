@@ -141,13 +141,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
-}
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(200,200,200,.2);
 }
 
 .navbar-toggle {
@@ -443,6 +437,10 @@ section.bigfat {
     background: rgba(0,0,0,0.7);
 }
 
+div.black-title a {
+	text-decoration: underline;
+}
+
 .fritedombox .slogan h2 {
     color: #FFF;
     text-shadow: none;
@@ -575,7 +573,7 @@ section.bigfat {
 
 .meeting {
     background-color: #F9F9F9;
-    color: #666;
+	color: #666;
     border: solid #666 1px;
     font-weight: 400;
 }
