@@ -438,11 +438,7 @@ section.bigfat {
 }
 
 div.black-title a {
-<<<<<<< HEAD
-	text-decoration: underline;
-=======
     text-decoration: underline;
->>>>>>> upstream/gh-pages
 }
 
 .fritedombox .slogan h2 {
@@ -586,11 +582,7 @@ div.black-title a {
 
 .meeting {
     background-color: #F9F9F9;
-<<<<<<< HEAD
-	color: #666;
-=======
     color: #666;
->>>>>>> upstream/gh-pages
     border: solid #666 1px;
     font-weight: 400;
 }
@@ -732,15 +724,9 @@ div.black-title a {
 }
 
 .getinvolved-links a {
-<<<<<<< HEAD
-	color: #333;
-	background-color: #EEE;
-	border-color: #333;
-=======
     color: #333;
     background-color: #EEE;
     border-color: #333;
->>>>>>> upstream/gh-pages
 }
 
 .getinvolved-links a:hover {
@@ -922,13 +908,8 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 section.footer {
     text-align: center;
     padding: 20px 0;
-<<<<<<< HEAD
-    background: #666;
-
-=======
     background: #fff;
     border-top: 1px solid rgb(33,33,33);
->>>>>>> upstream/gh-pages
 }
 
 section.footer small {
