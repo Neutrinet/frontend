@@ -63,9 +63,9 @@ a:focus {
 }
 
 .navbar-brand {
-	height: 40px;
-	padding: 10px 15px;
-	line-height: 1em;
+    height: 40px;
+    padding: 10px 15px;
+    line-height: 1em;
 }
 
 .navbar-brand:focus {
@@ -73,8 +73,8 @@ a:focus {
 }
 
 #neutrinet-logo {
-	height: 30px;
-	max-width: 150px;
+    height: 30px;
+    max-width: 150px;
 }
 
 .nav.navbar-nav {
@@ -87,7 +87,7 @@ a:focus {
 
 /* Dynamic SVG CSS styling is so hot */
 .navbar-custom.top-nav-collapse #Layer_1 {
-	fill: #333;
+    fill: #333;
 }
 
 .navbar-custom ul.nav li a {
@@ -437,7 +437,7 @@ section.bigfat {
 }
 
 div.black-title a {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .fritedombox .slogan h2 {
@@ -581,7 +581,7 @@ div.black-title a {
 
 .meeting {
     background-color: #F9F9F9;
-	color: #666;
+    color: #666;
     border: solid #666 1px;
     font-weight: 400;
 }
@@ -723,9 +723,9 @@ div.black-title a {
 }
 
 .getinvolved-links a {
-	color: #333;
-	background-color: #EEE;
-	border-color: #333;
+    color: #333;
+    background-color: #EEE;
+    border-color: #333;
 }
 
 .getinvolved-links a:hover {
