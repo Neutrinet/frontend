@@ -63,9 +63,9 @@ a:focus {
 }
 
 .navbar-brand {
-	height: 40px;
-	padding: 10px 15px;
-	line-height: 1em;
+    height: 40px;
+    padding: 10px 15px;
+    line-height: 1em;
 }
 
 .navbar-brand:focus {
@@ -73,9 +73,9 @@ a:focus {
 }
 
 #neutrinet-logo {
-    margin-top: 2px;
-	height: 26px;
-	max-width: 100px;
+    margin-top: 2px;	
+    height: 26px;
+    max-width: 100px;
 }
 
 .nav.navbar-nav {
@@ -88,7 +88,7 @@ a:focus {
 
 /* Dynamic SVG CSS styling is so hot */
 .navbar-custom.top-nav-collapse #Layer_1 {
-	fill: #333;
+    fill: #333;
 }
 
 .navbar-custom ul.nav li a {
@@ -438,7 +438,11 @@ section.bigfat {
 }
 
 div.black-title a {
+<<<<<<< HEAD
 	text-decoration: underline;
+=======
+    text-decoration: underline;
+>>>>>>> upstream/gh-pages
 }
 
 .fritedombox .slogan h2 {
@@ -582,7 +586,11 @@ div.black-title a {
 
 .meeting {
     background-color: #F9F9F9;
+<<<<<<< HEAD
 	color: #666;
+=======
+    color: #666;
+>>>>>>> upstream/gh-pages
     border: solid #666 1px;
     font-weight: 400;
 }
@@ -724,9 +732,15 @@ div.black-title a {
 }
 
 .getinvolved-links a {
+<<<<<<< HEAD
 	color: #333;
 	background-color: #EEE;
 	border-color: #333;
+=======
+    color: #333;
+    background-color: #EEE;
+    border-color: #333;
+>>>>>>> upstream/gh-pages
 }
 
 .getinvolved-links a:hover {
@@ -908,16 +922,21 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 section.footer {
     text-align: center;
     padding: 20px 0;
+<<<<<<< HEAD
     background: #666;
 
+=======
+    background: #fff;
+    border-top: 1px solid rgb(33,33,33);
+>>>>>>> upstream/gh-pages
 }
 
 section.footer small {
-    color: #f8f8f8;
+    color: #333;
 }
 
 section.footer a {
-    color: white;
+    color: #333;
     font-weight: bold;
 }
 section.footer a:hover {
@@ -983,7 +1002,7 @@ Parallax
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #333;
     border-radius: 50%;
     font-size: 2.5em;
     color: #fff;
