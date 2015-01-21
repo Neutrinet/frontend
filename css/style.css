@@ -44,6 +44,7 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    text-decoration: underline;
 }
 
 a:hover,
@@ -96,6 +97,7 @@ a:focus {
     letter-spacing: 1px;
     color: #fff;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: 700;
 }
 
@@ -727,6 +729,7 @@ div.black-title a {
     color: #333;
     background-color: #EEE;
     border-color: #333;
+    text-decoration: none;
 }
 
 .getinvolved-links a:hover {
