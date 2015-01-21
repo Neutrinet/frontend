@@ -73,8 +73,9 @@ a:focus {
 }
 
 #neutrinet-logo {
-	height: 30px;
-	max-width: 150px;
+    margin-top: 2px;
+	height: 26px;
+	max-width: 100px;
 }
 
 .nav.navbar-nav {
@@ -146,7 +147,7 @@ a:focus {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 0.8750em;
-    color: #fff;
+    color: #333;
 }
 
 .navbar-toggle:focus,
