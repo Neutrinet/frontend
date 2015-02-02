@@ -27,7 +27,7 @@
      * Replace all SVG images with inline SVG
      */
     jQuery('img.svg').each(function(){
-    	var $img = jQuery(this);
+        var $img = jQuery(this);
         var imgID = $img.attr('id');
         var imgClass = $img.attr('class');
         var imgURL = $img.attr('src');
@@ -54,7 +54,7 @@
         }, 'xml');
 
     });
-	
+
 
     function addMeetings(url, kind) {
         var element = $("#" + kind + "-meetings");
