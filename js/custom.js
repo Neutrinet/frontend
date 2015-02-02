@@ -1,8 +1,20 @@
 (function ($) {
 
     new WOW().init();
-    var previous_events_url = "/index.php?title=Special:Ask/-5B-5BCategory:Event-5D-5D-20-5B-5BEvent-20status::Ready-5D-5D-20-5B-5BDate::-3C2015-2D01-2D19T00:00:00-5D-5D/-3FDate/-3FPlace/format%3Djson/limit%3D2/sort%3DDate/order%3Ddescending/default%3DNo-20past-20event./offset%3D0";
-    var next_events_url = "/index.php?title=Special:Ask/-5B-5BCategory:Event-5D-5D-20-5B-5BEvent-20status::Ready-5D-5D-20-5B-5BDate::-3E2015-2D01-2D19T00:00:00-5D-5D/-3FDate/-3FPlace/format%3Djson/limit%3D10/sort%3DDate/order%3Dascending/default%3DNo-20upcoming-20event./offset%3D0";
+    var today = new Date();
+    var year = today.getUTCFullYear();
+    var month = today.getMonth() + 1;
+    if (month < 10) {
+        var month = "0" + month;
+    }
+    var day = today.getDate();
+    if (day < 10) {
+        var day = "0" + month;
+    }
+    var stupidlyUglyDateTimeFormatOfSemanticMerdiaWiki = year + "-2D" + month + "-2D" + day;
+
+    var previous_events_url = "/index.php?title=Special:Ask/-5B-5BCategory:Event-5D-5D-20-5B-5BEvent-20status::Ready-5D-5D-20-5B-5BDate::-3C" + stupidlyUglyDateTimeFormatOfSemanticMerdiaWiki + "T00:00:00-5D-5D/-3FDate/-3FPlace/format%3Djson/limit%3D2/sort%3DDate/order%3Ddescending/default%3DNo-20past-20event./offset%3D0";
+    var next_events_url = "/index.php?title=Special:Ask/-5B-5BCategory:Event-5D-5D-20-5B-5BEvent-20status::Ready-5D-5D-20-5B-5BDate::-3E" + stupidlyUglyDateTimeFormatOfSemanticMerdiaWiki + "T00:00:00-5D-5D/-3FDate/-3FPlace/format%3Djson/limit%3D10/sort%3DDate/order%3Dascending/default%3DNo-20upcoming-20event./offset%3D0";
 
 
     jQuery(window).load(function() {
