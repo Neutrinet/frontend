@@ -44,6 +44,7 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    text-decoration: underline;
 }
 
 a:hover,
@@ -73,8 +74,9 @@ a:focus {
 }
 
 #neutrinet-logo {
-    height: 30px;
-    max-width: 150px;
+    margin-top: 2px;	
+    height: 26px;
+    max-width: 100px;
 }
 
 .nav.navbar-nav {
@@ -95,6 +97,7 @@ a:focus {
     letter-spacing: 1px;
     color: #fff;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: 700;
 }
 
@@ -146,7 +149,7 @@ a:focus {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 0.8750em;
-    color: #fff;
+    color: #333;
 }
 
 .navbar-toggle:focus,
@@ -726,6 +729,7 @@ div.black-title a {
     color: #333;
     background-color: #EEE;
     border-color: #333;
+    text-decoration: none;
 }
 
 .getinvolved-links a:hover {
