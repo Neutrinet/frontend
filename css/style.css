@@ -415,6 +415,19 @@ section.bigfat {
 }
 
 /* ===========================
+--- Campaign
+============================ */
+
+#campaign .progress {
+    height: 80px;
+}
+
+#campaign .progress-bar {
+    line-height: 70px;
+    font-size: 32px;
+}
+
+/* ===========================
 --- FriteDomBox
 ============================ */
 
