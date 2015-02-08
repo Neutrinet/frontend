@@ -20,6 +20,8 @@
     jQuery(window).load(function() {
         jQuery("#preloader").delay(100).fadeOut("slow");
         jQuery("#load").delay(100).fadeOut("slow");
+        var osm_html = '<iframe width="100%" height="300px" frameBorder="0" src="https://umap.openstreetmap.fr/fr/map/carte-sans-nom_26223?scaleControl=true&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&datalayersControl=false&onLoadPanel=undefined"></iframe><p><a href="https://umap.openstreetmap.fr/fr/map/carte-sans-nom_26223" style="color: yellow"><b>Full screen</b></a></p>';
+        $("#osm").html(osm_html);
     });
 
 
