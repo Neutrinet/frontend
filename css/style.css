@@ -446,6 +446,10 @@ section.bigfat {
     margin-bottom: 15px;
 }
 
+#campaign p {
+    margin-bottom: 0px;
+}
+
 /* ===========================
 --- FriteDomBox
 ============================ */
