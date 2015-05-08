@@ -442,6 +442,10 @@ section.bigfat {
     letter-spacing: -0.1px;
 }
 
+.campaign-subnotes h3 {
+    margin-bottom: 15px;
+}
+
 /* ===========================
 --- FriteDomBox
 ============================ */
