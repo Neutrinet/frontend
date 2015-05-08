@@ -450,6 +450,11 @@ section.bigfat {
     margin-bottom: 0px;
 }
 
+#campaign ul {
+    text-align: left;
+    font-size: 1.128em;
+}
+
 /* ===========================
 --- FriteDomBox
 ============================ */
