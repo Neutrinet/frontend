@@ -807,6 +807,10 @@ div.black-title a {
     padding: 20px;
 }
 
+.boxed-grey .container {
+    width: 100%;
+}
+
 .team h5 {
     margin-bottom: 10px;
 }
