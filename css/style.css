@@ -454,6 +454,11 @@ section.bigfat {
     background-color: #CC082F;
 }
 
+#campaign .right-arrow {
+    font-size: 16px;
+    letter-spacing: -5px;
+}
+
 #campaign .progress div {
     margin-left: auto;
     margin-right: auto;
