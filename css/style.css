@@ -463,6 +463,11 @@ section.bigfat {
     font-family: Montserrat,sans-serif;
 }
 
+#campaign .the-cake-is-a-lie {
+    text-align: right;
+    font-size: small;
+}
+
 #campaign .boxed-grey {
     color: #FEFEFE;
     background: rgba(33,33,33,0.8);
