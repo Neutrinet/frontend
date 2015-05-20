@@ -450,6 +450,10 @@ section.bigfat {
     background: rgba(250, 250, 250, 0.9);
 }
 
+#campaign .progress-bar {
+    background-color: #CC082F;
+}
+
 #campaign .progress div {
     margin-left: auto;
     margin-right: auto;
