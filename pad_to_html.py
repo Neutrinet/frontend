@@ -60,12 +60,28 @@ ALLOWED_TAGS = (
     "wbr",
 )
 
+header = """
+<!doctype html>
+<html>
+<head>
+<title>Neutrinet Hub</title>
+<link href="../css/pad.css" rel="stylesheet">
+<body>
+"""
+
+footer = """
+</body>
+</html>
+"""
+
 def main():
     source, destination = sys.argv[1:]
 
     source = urlopen(source + "/export/txt").read()
     source = "\n".join(filter(lambda x: not x.lstrip().startswith("//"), source.split("\n")))
     html = bleach.clean(markdown(source), tags=ALLOWED_TAGS)
+
+    html = header + html + footer
 
     open(destination, "w").write(html)
 
