@@ -65,7 +65,7 @@ header = """
 <html>
 <head>
 <title>Neutrinet Hub</title>
-<link href="../css/pad.css" rel="stylesheet">
+<link href="css/pad.css" rel="stylesheet">
 <body>
 """
 
