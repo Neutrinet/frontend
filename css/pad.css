@@ -1,0 +1,13 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    color: #111;
+    background-color: #fbfbfb;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
