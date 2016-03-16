@@ -5,12 +5,67 @@ from markdown2 import markdown
 from urllib2 import urlopen
 
 
+# built from here https://www.w3.org/TR/html-markup/elements.html
+ALLOWED_TAGS = (
+    "a",
+    "abbr",
+    "b",
+    "blockquote",
+    "br",
+    "col",
+    "colgroup",
+    "dd",
+    "del",
+    "div",
+    "dl",
+    "dt",
+    "em",
+    "footer",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "head",
+    "header",
+    "hgroup",
+    "hr",
+    "i",
+    "img",
+    "label",
+    "legend",
+    "li",
+    "nav",
+    "ol",
+    "p",
+    "pre",
+    "q",
+    "s",
+    "section",
+    "small",
+    "span",
+    "strong",
+    "table",
+    "tbody",
+    "td",
+    "tfoot",
+    "th",
+    "thead",
+    "time",
+    "title",
+    "tr",
+    "u",
+    "ul",
+    "wbr",
+)
+
 def main():
     source, destination = sys.argv[1:]
 
     source = urlopen(source + "/export/txt").read()
     source = "\n".join(filter(lambda x: not x.lstrip().startswith("//"), source.split("\n")))
-    html = markdown(source)
+    html = bleach.clean(markdown(source), tags=ALLOWED_TAGS)
 
     open(destination, "w").write(html)
 
