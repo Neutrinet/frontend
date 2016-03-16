@@ -1328,3 +1328,21 @@ Parallax
     margin-right: 25px;
     margin-bottom: 25px;
 }
+
+.service-desc ul {
+    text-align: left;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.service-desc li {
+    font-size: 1.128em;
+}
+
+.service-desc .description {
+    height: 220px;
+}
+
+.organisation {
+    text-align: left;
+}
