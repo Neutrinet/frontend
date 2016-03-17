@@ -70,6 +70,10 @@ header = """
 """
 
 footer = """
+<footer>
+<hr>
+<p><a href="..">Go back to Neutrinet website</a></p>
+</footer>
 </body>
 </html>
 """

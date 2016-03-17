@@ -28,3 +28,21 @@ h1 {
     letter-spacing: 5px;
     font-size: 40px;
 }
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:visited {
+    color: black;
+}
+
+footer hr {
+    width: 20%;
+    margin-bottom: 40px;
+}
