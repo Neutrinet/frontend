@@ -87,7 +87,7 @@ def main():
 
     html = header + html + footer
 
-    open(destination, "w").write(html)
+    open(destination, "w").write(html.encode("Utf-8"))
 
 
 if __name__ == '__main__':
