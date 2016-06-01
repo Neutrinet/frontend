@@ -82,14 +82,15 @@
                 for (i in data.results) {
                     var url = data.results[i].fullurl;
                     var location = data.results[i].printouts.Place[0]
-                    var date = new Date(data.results[i].printouts.Date[0] * 1000);
+                    var datetime = new Date(data.results[i].printouts.Date[0] * 1000);
                     // javascript is super lame
-                    var month = date.getMonth() + 1;
+                    var month = datetime.getMonth() + 1;
                     if (month < 10) {
                         var month = "0" + month;
                     }
-                    var date = date.getDate() + "/" + month + "/" + date.getUTCFullYear();
-                    element.append('<p class="meeting">' + date + ' - <a href="' + window.location.protocol + url + '"><b>' + i.slice(6, i.length) + '</b></a> ' + location + '</p>')
+                    var date = datetime.getDate() + "/" + month + "/" + datetime.getUTCFullYear();
+                    var time = datetime.getHours() + 'h' + datetime.getMinutes();
+                    element.append('<p class="meeting">' + date + ' - <a href="' + window.location.protocol + url + '"><b>' + i.slice(6, i.length) + '</b></a> ' + location + ' à ' + time +  '</p>')
                 }
             }
         }).error(function(data) {
