@@ -90,7 +90,7 @@
                     }
                     var date = datetime.getDate() + "/" + month + "/" + datetime.getUTCFullYear();
                     var time = (datetime.getHours() - 2) + 'h' + datetime.getMinutes();
-                    element.append('<p class="meeting">' + date + ' - <a href="' + window.location.protocol + url + '"><b>' + i.slice(6, i.length) + '</b></a> ' + location + ' à ' + time +  '</p>')
+                    element.append('<p class="meeting">' + date + ' - <a href="' + window.location.protocol + url + '"><b>' + i.slice(6, i.length) + '</b></a> ' + location + ' at ' + time +  '</p>')
                 }
             }
         }).error(function(data) {
