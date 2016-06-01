@@ -9,7 +9,7 @@
     }
     var day = today.getDate();
     if (day < 10) {
-        var day = "0" + month;
+        var day = "0" + day;
     }
     var stupidlyUglyDateTimeFormatOfSemanticMerdiaWiki = year + "-2D" + month + "-2D" + day;
 
