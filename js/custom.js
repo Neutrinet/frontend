@@ -81,6 +81,7 @@
                 // semantic merdiawiki really have a shitty export
                 for (i in data.results) {
                     var url = data.results[i].fullurl;
+                    url = url.replace("//Event:", "/Event:");
                     var location = data.results[i].printouts.Place[0]
                     var datetime = new Date(data.results[i].printouts.Date[0] * 1000);
                     // javascript is super lame
@@ -94,7 +95,7 @@
                       minutes = "0" + minutes;
                     }
                     var time = (datetime.getHours() - 2) + 'h' + minutes;
-                    element.append('<p class="meeting">' + date + ' - <a href="' + window.location.protocol + url + '"><b>' + i.slice(6, i.length) + '</b></a> ' + location + ' at ' + time +  '</p>')
+                    element.append('<p class="meeting">' + date + ' - <a href="' + url + '"><b>' + i.slice(6, i.length) + '</b></a> ' + location + ' at ' + time +  '</p>')
                 }
             }
         }).error(function(data) {
