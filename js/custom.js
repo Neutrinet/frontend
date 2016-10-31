@@ -94,7 +94,7 @@
                     if (minutes < 10) {
                       minutes = "0" + minutes;
                     }
-                    var time = (datetime.getHours() - 2) + 'h' + minutes;
+                    var time = (datetime.getHours() - 1) + 'h' + minutes;
                     element.append('<p class="meeting">' + date + ' - <a href="' + url + '"><b>' + i.slice(6, i.length) + '</b></a> ' + location + ' at ' + time +  '</p>')
                 }
             }
