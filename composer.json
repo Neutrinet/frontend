@@ -1,0 +1,13 @@
+{
+    "name": "neutrinet/website",
+    "description": "Website neutrinet",
+    "authors": [
+        {
+            "name": "Tharyrok",
+            "email": "dev@tharyrok.eu"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.6"
+    }
+}
