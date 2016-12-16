@@ -107,8 +107,8 @@
 
     //jQuery for page scrolling feature - requires jQuery Easing plugin
     $(function() {
-        addMeetings(previous_events_url, "previous");
-        addMeetings(next_events_url, "next");
+        // addMeetings(previous_events_url, "previous");
+        // addMeetings(next_events_url, "next");
         $('.navbar-nav li a').bind('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
