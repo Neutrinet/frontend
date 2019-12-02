@@ -29,12 +29,14 @@ ve/bin/python list_builder.py neutrinet_ynh_apps.json -o apps.json
 
 ### Troubleshooting
 
-This script generate the `lastUpdate` field from the release date of the apps.
+This script generates the `lastUpdate` field with the current time. 
 
-For instance, if the Neutrinet app was release on 23rd November 2019, then the `lastUpdate` field will be set to `1574496634`.
+For instance, if the Neutrinet app was released on 23rd November 2019, but you build the package list on 2nd December, then the `lastUpdate` field will be set to a timestamp of 2nd December.
 
-This can produce issues, because Yunohost checks this field to know if an application must be updated.
+Note that, Yunohost checks this field to know if an application must be updated.
 If the application was installed after this timestamp, then it won't be updated...
+
+We should try to avoid big time gaps between the build of the package list and its publication on the website.
 
 ### Publish
 
