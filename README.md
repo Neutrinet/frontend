@@ -5,24 +5,26 @@ Neutrinet provides its own package list for Yunohost. Currently, the list of Yun
 
 ### Build
 
-Below are the steps to build the package list from `neutrinet_ynh_apps.json`, using the [script `list_builder.py` provided by Yunohost](https://github.com/YunoHost/apps/blob/master/list_builder.py).
+Below are the steps to build the package list from `neutrinet_ynh_apps.json`, using the script `list_builder.py`.
 
-Note that this script only works for these forges:
-- github.com
-- framagit.org
-- code.ffdn.org
-- code.antopie.org
-
-Hence, we have to temporary keep the Github urls in our package list. But don't worry, we will remove them later on ;)
-
-Install python2 and virtualenv:
+Install python3 and virtualenv:
 ```shell
-sudo apt install python python-virtualenv
+sudo apt install python3 python3-venv
 ```
 
-Run the build script:
+Create a python virtual environment:
 ```shell
-./build_neutrinet_ynh.sh
+python3 -m venv ve
+```
+
+Install script dependencies:
+```shell
+ve/bin/pip install GitPython requests
+```
+
+Run the script:
+```shell
+ve/bin/python list_builder.py neutrinet_ynh_apps.json -o apps.json
 ```
 
 ### Troubleshooting
