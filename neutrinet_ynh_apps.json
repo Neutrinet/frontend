@@ -1,7 +1,7 @@
 {
     "neutrinet": {
         "branch": "master",
-        "revision": "0.3.0",
+        "revision": "0.3.0-ynh2",
         "state": "working",
         "url": "https://git.domainepublic.net/Neutrinet/neutrinet_ynh"
     }
